@@ -85,7 +85,7 @@ export default function Team() {
             "id":4,
             "name": 'Rudrani Pal',
             "job_role": 'React Developer',
-            "image_url": "https://i.pravatar.cc/150?u=a042581f4e29026024d",
+            "image_url": "",
         },
         {
             "id":5,
@@ -133,7 +133,7 @@ export default function Team() {
             "id":12,
             "name": 'Sambhav Goswami',
             "job_role": 'Figma Designer',
-            "image_url": "https://i.pravatar.cc/150?u=a042581f4e29026024d",
+            "image_url": "",
         },
         {
             "id":13,
@@ -155,8 +155,8 @@ export default function Team() {
         },
     ]
 return(
-        <div className="overflow-hidden py-12 bg-purple-200/40 iPhone4and4S:py-6 iPad1and2andMiniandAir:py-8">
-            <h3 id="team_heading" className="uppercase font-semibold text-center text-6xl mb-8 iPhone4and4S:text-4xl iPad1and2andMiniandAir:text-5xl iPad1and2andMiniandAir:mb-14 Laptops:mb-20" >our leaders</h3>
+        <div id="team" className="overflow-hidden py-20 bg-blue-200/15 iPhone4and4S:py-10 iPad1and2andMiniandAir:py-10">
+            <h3 id="team_heading" className="uppercase font-semibold text-center text-6xl mb-8 iPhone4and4S:text-4xl iPad1and2andMiniandAir:text-5xl iPad1and2andMiniandAir:mb-14 Laptops:mb-20" >our team</h3>
             <Slider {...imagesetting} >
                 {team.map((tdetails) => {
                     return(
